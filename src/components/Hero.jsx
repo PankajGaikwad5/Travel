@@ -22,7 +22,7 @@ const Hero = () => {
             placeholder='Search Destinations'
             className='text-black w-[300px] sm:w-[400px] focus:outline-none bg-transparent'
           />
-          <button className='mr-2 sm:mr-1'>
+          <button className='mr-1'>
             <AiOutlineSearch className='icon' />
           </button>
         </form>
