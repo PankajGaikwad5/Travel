@@ -16,11 +16,11 @@ const Footer = () => {
         <div className='flex flex-col sm:flex-row text-center justify-between sm:justify-center items-center'>
           <h1 className='text-center px-6 ml-12'>Beaches</h1>
           <div className='flex justify-between my-6'>
-            <FaFacebook className='icon mx-9 sm:mx-5 text-blue-900 hover:text-blue-700' />
-            <FaTwitter className='icon mx-9 sm:mx-5 text-blue-900 hover:text-blue-700' />
-            <FaYoutube className='icon mx-9 sm:mx-5 text-blue-900 hover:text-blue-700' />
-            <FaPinterest className='icon mx-9 sm:mx-5 text-blue-900 hover:text-blue-700' />
-            <FaInstagram className='icon mx-9 sm:mx-5 text-blue-900 hover:text-blue-700' />
+            <FaFacebook className='icon mx-5 text-blue-900 hover:text-blue-700' />
+            <FaTwitter className='icon mx-5 text-blue-900 hover:text-blue-700' />
+            <FaYoutube className='icon mx-5 text-blue-900 hover:text-blue-700' />
+            <FaPinterest className='icon mx-5 text-blue-900 hover:text-blue-700' />
+            <FaInstagram className='icon mx-5 text-blue-900 hover:text-blue-700' />
           </div>
         </div>
         <div className='flex justify-between sm:flex-col ml-12 sm:items-center'>
