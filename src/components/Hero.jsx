@@ -23,7 +23,7 @@ const Hero = () => {
             className='text-black w-[300px] sm:w-[400px] focus:outline-none bg-transparent'
           />
           <button>
-            <AiOutlineSearch className='icon p-2' />
+            <AiOutlineSearch className='icon' />
           </button>
         </form>
       </div>
