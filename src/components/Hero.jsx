@@ -13,16 +13,16 @@ const Hero = () => {
         loop
       />
       <div className='w-full h-full absolute top-0 left-0 bg-gray-900/30'></div>
-      <div className='w-full h-full absolute top-0 left-0 flex flex-col justify-center items-center text-white text-center p-4'>
+      <div className='w-full h-full absolute top-0 left-0 flex flex-col justify-center items-center text-white text-center'>
         <h1>First Class Travel</h1>
         <h2 className='my-3'>Top 1% Locations Worldwide</h2>
-        <form className='w-full max-w-[375px] md:max-w-[700px] border rounded-md flex justify-between items-center mx-auto px-2 py-1 bg-gray-100/90'>
+        <form className='w-full max-w-[375px] md:max-w-[700px] border rounded-md flex justify-between items-center mx-auto p-1 bg-gray-100/90'>
           <input
             type='text'
             placeholder='Search Destinations'
             className='text-black w-[300px] sm:w-[400px] focus:outline-none bg-transparent'
           />
-          <button>
+          <button className='mr-2 sm:mr-1'>
             <AiOutlineSearch className='icon' />
           </button>
         </form>

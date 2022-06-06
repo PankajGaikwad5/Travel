@@ -653,6 +653,14 @@ button {
   margin-left: 0.5rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -982,6 +990,10 @@ button {
 
   .sm\:ml-12 {
     margin-left: 3rem;
+  }
+
+  .sm\:mr-1 {
+    margin-right: 0.25rem;
   }
 
   .sm\:w-\[400px\] {
