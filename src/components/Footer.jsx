@@ -23,13 +23,13 @@ const Footer = () => {
             <FaInstagram className='icon mx-5 text-blue-900 hover:text-blue-700' />
           </div>
         </div>
-        <div className='flex justify-between sm:flex-col ml-12 sm:items-center'>
+        <div className='flex justify-between sm:flex-col ml-5 sm:ml-12 sm:items-center'>
           <ul className='flex flex-col sm:flex-row text-left'>
-            <li className='p-4'>About</li>
-            <li className='p-4'>Partnerships</li>
-            <li className='p-4'>Careers</li>
-            <li className='p-4'>Newsroom</li>
-            <li className='p-4'>Advertising</li>
+            <li className='pr-4 pt-4 pb-4'>About</li>
+            <li className='pr-4 pt-4 pb-4'>Partnerships</li>
+            <li className='pr-4 pt-4 pb-4'>Careers</li>
+            <li className='pr-4 pt-4 pb-4'>Newsroom</li>
+            <li className='pr-4 pt-4 pb-4'>Advertising</li>
           </ul>
           <ul className='flex flex-col sm:flex-row text-right'>
             {navList.map((list, index) => {
