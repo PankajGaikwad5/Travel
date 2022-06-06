@@ -16,13 +16,13 @@ const Hero = () => {
       <div className='w-full h-full absolute top-0 left-0 flex flex-col justify-center items-center text-white text-center p-4'>
         <h1>First Class Travel</h1>
         <h2 className='my-3'>Top 1% Locations Worldwide</h2>
-        <form className='w-full max-w-[400px] md:max-w-[700px] border rounded-md flex justify-between items-center mx-auto p-2 bg-gray-100/90'>
+        <form className='w-full max-w-[400px] md:max-w-[700px] border rounded-md flex justify-between items-center mx-auto p-1 bg-gray-100/90'>
           <input
             type='text'
             placeholder='Search Destinations'
             className='text-black w-[300px] sm:w-[400px] focus:outline-none bg-transparent'
           />
-          <button>
+          <button className='m-1'>
             <AiOutlineSearch className='icon' />
           </button>
         </form>
