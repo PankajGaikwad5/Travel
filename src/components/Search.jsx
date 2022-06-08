@@ -10,7 +10,7 @@ const Search = () => {
     >
       <div className='lg:col-span-2 flex flex-col justify-evenly'>
         <div>
-          <h1>LUXURY INCLUDED VACATIONS FOR TWO PEOPLE</h1>
+          <h1>LUXURY VACATIONS FOR TWO PEOPLE</h1>
           <p className='py-3'>
             Come experience the very pinnacle of luxury Caribbean all-inclusive
             vacations for couples at BEACHES Resorts. Our luxury beach resorts,

@@ -14,7 +14,7 @@ const Footer = () => {
     <div className='w-full bg-gray-100 py-16 mx-auto'>
       <div className='max-w-[1240px] flex flex-col px-4'>
         <div className='flex flex-col sm:flex-row text-center justify-between sm:justify-center items-center'>
-          <h1 className='text-center px-6 ml-12'>Beaches</h1>
+          <h1 className='text-center px-6 ml-1 sm:ml-12'>Beaches</h1>
           <div className='flex justify-between my-6'>
             <FaFacebook className='icon mx-5 text-blue-900 hover:text-blue-700' />
             <FaTwitter className='icon mx-5 text-blue-900 hover:text-blue-700' />
